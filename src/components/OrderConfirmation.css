@@ -1,0 +1,71 @@
+.order-confirmation-container {
+  background-color: #ce2829;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.order-confirmation-container h2 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.order-confirmation-container h2::before {
+  padding-top: 50px;
+  content: 'lezzetin yolda';
+  display: block;
+  font-size: 24px;
+  color: #fdc913;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-family: 'Satisfy', cursive;
+}
+
+.order-confirmation-container h3 {
+  font-size: 18px;
+  margin: 30px 0 10px;
+  font-weight: bold;
+}
+
+.order-confirmation-container p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.order-details {
+  border-top: 1px solid #ffffff60;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.summary-box {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 70px;
+  display: inline-block;
+  margin-top: 30px;
+  text-align: left;
+  background-color: #ce2829;
+}
+
+.summary-box h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.summary-box .line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.summary-box .line strong {
+  font-weight: 500;
+}

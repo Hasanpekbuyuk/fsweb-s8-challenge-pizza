@@ -1,0 +1,392 @@
+/* GENEL */
+.home {
+  background: #faf7f2;
+  font-family: 'Barlow', Arial, sans-serif;
+}
+
+/* HERO BÖLÜMÜ */
+.hero-section {
+  background: url('/images/iteration-1-images/home-banner.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  min-height: 920px;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.hero-content {
+  text-align: center;
+  padding-top: 48px;
+  position: relative;
+  z-index: 2;
+}
+
+
+.hero-logo {
+  width: 380px;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.hero-subtitle {
+  color: #fdc913;
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  margin-top: 16px;
+}
+.menu-subtitle {
+  color: #ce2829;
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  margin-top: 26px;
+  text-align: center;
+}
+.menu-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.hero-heading {
+  color: #fff;
+  font-size: 4rem;
+  margin: 16px 0;
+  letter-spacing: 1px;
+}
+
+.hero-button {
+  background: #fdc913;
+  color: #292929;
+  border: none;
+  border-radius: 20px;
+  padding: 16px 48px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+  position: relative;
+  z-index: 2;
+}
+.hero-button:hover {
+  background: #ffe082;
+}
+
+.hero-pizza {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -80px;
+  width: 600px;
+  z-index: 1;
+}
+
+/* KATEGORİ BAR */
+.category-bar {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  padding: 24px 0;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  color: #292929;
+  font-weight: 500;
+  gap: 6px;
+  min-width: 80px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.category-item:hover {
+  color: #ce2829;
+}
+.category-icon {
+  width: 32px;
+  margin-bottom: 4px;
+}
+.menu-filters-icon {
+  width: 32px;
+  margin-right: 8px;
+}
+
+/* KAMPANYA KARTLARI */
+.campaign-cards {
+  display: flex;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 48px auto 0 auto;
+}
+
+.campaign-left {
+  background: url('/images/iteration-2-images/cta/kart-1.png') no-repeat center center;
+  flex: 2;
+  border-radius: 16px;
+  color: #fff;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 260px;
+}
+
+.campaign-left-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.campaign-left-desc {
+  margin: 16px 0;
+  font-size: 1.1rem;
+}
+
+.campaign-button {
+  background: #fff;
+  color: #ce2829;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.campaign-button:hover {
+  background: #ffe082;
+}
+.campaign-button.small {
+  padding: 6px 18px;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+.campaign-right {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 320px;
+}
+
+.campaign-card {
+  border-radius: 16px;
+  color: #fff;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 120px;
+}
+
+.campaign-card.dark {
+  background: url('/images/iteration-2-images/cta/kart-2.png') no-repeat center center;
+}
+
+.campaign-card.light {
+  background: url('/images/iteration-2-images/cta/kart-3.png') no-repeat center center;
+  color: #ce2829;
+}
+
+.campaign-card-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.campaign-card-title.highlight {
+  color: #ce2829;
+}
+
+.campaign-img {
+  width: 360px;
+  margin-left: 16px;
+}
+
+/* MENÜ FİLTRELERİ */
+.menu-filters {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin: 48px 0 24px 0;
+}
+
+.filter-button {
+  background: #fff;
+  color: #292929;
+  border: 1px solid #eee;
+  border-radius: 30px;
+  padding: 8px 32px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s;
+  height: 70px;
+}
+.filter-button:focus {
+  background: #fdc913;
+  border: none;
+  color: #292929;
+}
+
+/* ÜRÜN KARTLARI */
+.product-cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  max-width: 1100px;
+  margin: 0 auto 48px auto;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
+  padding: 24px;
+  text-align: center;
+  width: 100%;
+  transition: box-shadow 0.2s;
+}
+.product-card:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+}
+.product-img {
+  width: 120px;
+}
+
+.product-name {
+  font-weight: bold;
+  margin-top: 12px;
+  font-size: 1.1rem;
+}
+
+.product-rating {
+  color: #5f5f5f;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+/* FOOTER */
+.footer {
+  background: #232323;
+  color: #fff;
+  padding: 48px 0 32px 0;
+  margin-top: 48px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 22px;
+}
+.footer-contact {
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer-subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-insta {
+  display: flex;
+  gap: 6px;
+}
+
+.footer-insta-img {
+  width: 48px;
+  border-radius: 8px;
+}
+
+.footer-copy {
+  text-align: center;
+  color: #aaa;
+  margin-top: 32px;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .campaign-cards,
+  .product-cards,
+  .footer-content,
+  .category-bar {
+    max-width: 98vw;
+    gap: 16px;
+  }
+  .hero-pizza {
+    width: 90vw;
+    min-width: 320px;
+    max-width: 600px;
+  }
+}
+@media (max-width: 900px) {
+  .campaign-cards,
+  .product-cards,
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .category-bar {
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 18px 0;
+  }
+  .footer-content {
+    gap: 24px;
+  }
+  .product-card {
+    width: 90vw;
+    max-width: 340px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-logo { width: 120px; }
+  .hero-heading { font-size: 1.3rem; }
+  .hero-pizza { width: 100vw; min-width: 180px; }
+  .category-bar { border-radius: 12px; }
+  .campaign-left, .campaign-card { padding: 16px; }
+  .footer { padding: 24px 0 16px 0; }
+}
+.footer-logo {
+  width: 24px;
+  margin-right: 8px;
+}
